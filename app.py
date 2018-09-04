@@ -5,7 +5,6 @@ import json
 import logging
 import os
 
-from preprocess import tokenizer
 from sklearn.externals import joblib
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
